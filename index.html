@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to HTML</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <span>APEX</span>
+        </div>
+        
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Features</a></li>
+            <li><a href="#">Use Cases</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        
+        <button class="login-btn">Log into your Account</button>
+        
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Deploy in Seconds.<br>Scale Without Limits.</h1>
+            <p>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+            <form class="signup-form" onsubmit="handleSignup(event)">
+                <input type="email" placeholder="Enter email" required>
+                <button type="submit" class="signup-btn">Sign Up Now</button>
+            </form>
+        </div>
+        
+        <img src="team.jpg" class="hero-image">
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
