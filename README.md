@@ -1,2 +1,2 @@
 # figmaDesign
-a site made from figma design
+A site from design to living responsive html website 
